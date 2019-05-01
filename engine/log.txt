@@ -1,0 +1,4 @@
+Broadcasting mode: on
+send failed: 10038
+send failed with code -1 at line 136SendReceiveInput()
+receiving events
