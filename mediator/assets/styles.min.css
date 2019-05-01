@@ -1,0 +1,85 @@
+.text-input:focus
+{
+	border:1px solid #ced4da;
+	outline:0;box-shadow:
+	inherit!important
+}
+
+.select-dropdown,.text-input
+{
+	border-color:#94d1ff;
+	box-shadow:0 0 0 .1rem rgba(109,179,255,.37)
+}
+
+.select-dropdown
+{
+	
+}
+
+#btn-connect
+{
+	font-weight:bold;
+}
+
+#maincontainer
+{
+	padding-top:10vw;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index:-1;
+  filter:opacity(50%);
+}
+
+@media screen and (max-width: 575px) {
+  #maincontainer { padding:30px; }
+  #credentialsrow { margin-bottom:30px; }
+  
+}
+
+
+.padding-medium
+{
+	padding-top:15%
+}
+
+#id-column
+{
+	padding-top:18px
+}
+
+h1 
+{
+	font-weight:100;
+	font-size:5vw;
+	
+}
+@media screen and (min-width: 700px) {
+  h1 { font-size: 36px; }
+}
+
+
+h5
+{
+	margin-bottom:0px;
+}
+
+#partner-column,#password-column
+{
+	padding-top:10px
+}
+
+#dropdown-column
+{
+	padding-top:8px
+}
+
+#connect-column
+{
+	padding-top:25px
+}
